@@ -1,0 +1,28 @@
+git config --global user.name "Seu nome aqui"
+git config --globla user.email"Email"
+git config --global core.editor subl <- Editor de texto
+git config --list <- lista todas as configurações configuradas no meu git
+git config user.name <- Nome do user configurado
+git config user.email <- Endereço de email atual configurado 
+------------------------
+estados do git (Ciclo de vidas) 
+
+untracked(vermelho): Momento em que o arquivo foi adicionado e não foi visto pelo git. Não conhece dentro do seu repositorio a existencia desse arquivo.
+
+unmodified(Verde): Depois de adicionado no git, ela passa ser considerado unmodified, ou sejac, não alterado.  
+
+modified(Amarelo): Caso você modifique ela muda o estado para modified.
+
+staged: area onde é criada a versao. 
+
+git log <- mostra todas as altereções e quais foram os autores das alterações
+
+criar um txt cmd <- copy con nome do arquivo
+abrir  um txt pelo cmd notepad nome do arquivo
+git shortlog/sm/sn - mais informações sobre logs
+git diff - exibe os dados antes de ser comitados
+git commit -am "text" commit para arquivos já existentes
+git show + chave
+git checkout "Nome do arquivo"
+git reset head (Usamos quando queremos voltar nosso ponteiro. 
+git reset --soft --mixed --hard
