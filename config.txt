@@ -26,3 +26,11 @@ git show + chave
 git checkout "Nome do arquivo"
 git reset head (Usamos quando queremos voltar nosso ponteiro. 
 git reset --soft --mixed --hard
+---
+enviando dados para o git
+git remote add origin https://github.com/kleytonmr/clonespotify.git (nome do repositorio
+mostra mais informações sobre o repositorio 
+git remote -v
+--
+enviar os dados de fato para o origin
+git push -u origin master
