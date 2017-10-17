@@ -34,3 +34,9 @@ git remote -v
 --
 enviar os dados de fato para o origin
 git push -u origin master
+-- 
+git clone https://github.com/kleytonmr/clonespotify.git 
+ver depois.. fork 
+branch <- ponteiro movel que leva o commit
+criar um novo branch
+git checkout -b kleyton_ksa
