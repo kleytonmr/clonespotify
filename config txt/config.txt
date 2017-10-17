@@ -34,3 +34,24 @@ git remote -v
 --
 enviar os dados de fato para o origin
 git push -u origin master
+-- 
+git clone https://github.com/kleytonmr/clonespotify.git 
+ver depois.. fork 
+branch <- ponteiro movel que leva o commit
+criar um novo branch
+git checkout -b kleyton_ksa
+mudar de uma branch para outra
+git checkout (nome da branch)
+deletar 
+git branch -D (nome da branch)
+--
+git stash - ele pausa ou congela um arquivo que ainda esta em mudança 
+git stash apply aplica as mudanças
+git stash list - lista 
+git stash clear limpa tudas as stash
+configurar minhas teclas de atalho
+git config --global alias.s status
+versionamento 
+git tag -a 1.0 -m "versao 1.0"
+upar as tags 
+git push origin master --tags
